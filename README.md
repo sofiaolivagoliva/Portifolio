@@ -17,7 +17,7 @@ O efeito de rolagem suave usa a biblioteca Lenis pelo CDN jsDelivr. Se a bibliot
   <table>
   <tr>
   <td align="center" width="180">
-        <img src="assets/images/sofia.webp" width="80" height="80" alt="Sofia Oliveira Gonçalves"/>
+        <img src="assets/images/sofia.webp" width="40%" height="40%" alt="Sofia Oliveira Gonçalves"/>
         <br><br>
         <strong>Sofia Oliveira Gonçalves</strong>
         <br>
