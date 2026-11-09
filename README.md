@@ -1,7 +1,7 @@
 # 🪎 Portfólio — Sofia Oliveira Gonçalves
 
 Site estático responsivo para apresentar desenvolvimento Full Stack, Lookdev 3D, formação e contatos.
-<a href="https://sofiaoliveiragoncalves.netlify.app/">Repositório</a>
+<a href="https://sofiaoliveiragoncalves.netlify.app/">Portfólio</a>
 
 ## 🖱️ Como executar
 
