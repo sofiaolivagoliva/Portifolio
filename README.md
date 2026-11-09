@@ -15,7 +15,7 @@ O efeito de rolagem suave usa a biblioteca Lenis pelo CDN jsDelivr. Se a bibliot
 ## Autor
 
 - Sofia Oliveira Gonçalves.
-<img src="assets/images/sofia.webp" alt="">
+<img classe="integrante" src="assets/images/sofia.webp" alt="">
 - Idade: 22 anos.
 - Região: São Paulo, Brasil.
 - Curso concluído: Animação 3D, pela Faculdade de tecnologia Méliès.
