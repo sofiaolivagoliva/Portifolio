@@ -1,8 +1,8 @@
-# Portfólio — Sofia Oliveira Gonçalves
+# 🪎 Portfólio — Sofia Oliveira Gonçalves
 
 Site estático responsivo para apresentar desenvolvimento Full Stack, Lookdev 3D, formação e contatos.
 
-## Como executar
+## 🖱️ Como executar
 
 1. Copie o link do repositório.
 2. Clone no terminal de preferência, para o explorer.
@@ -12,12 +12,12 @@ Site estático responsivo para apresentar desenvolvimento Full Stack, Lookdev 3D
 
 O efeito de rolagem suave usa a biblioteca Lenis pelo CDN jsDelivr. Se a biblioteca ou a conexão externa não estiver disponível, o site continua navegável com a rolagem nativa do navegador. As fontes são carregadas pelo Google Fonts; fontes de sistema são usadas como alternativa.
 
-## Autor
+## 👩🏻‍🏫 Autor
 <div>
   <table>
   <tr>
   <td align="center" width="180">
-        <img src="assets/images/sofia.webp" width="70%" height="70%" alt="Sofia Oliveira Gonçalves"/>
+        <img src="assets/images/sofia.webp" width="90%" height="90%" alt="Sofia Oliveira Gonçalves"/>
         <br><br>
         <strong>Sofia Oliveira Gonçalves</strong>
         <br>
@@ -45,7 +45,7 @@ O efeito de rolagem suave usa a biblioteca Lenis pelo CDN jsDelivr. Se a bibliot
    </table>
 </div>
 
-## Estrutura
+## 🗃️ Estrutura
 
 ```text
 Portifólio/
@@ -65,13 +65,13 @@ Portifólio/
         └── nano-formacao-social-sustentabilidade.png
 ```
 
-## Tecnologias
+## 🛠️ Tecnologias
 - HTML
 - CSS
 - JavaScript
 - Desenvolvidos no VS Code
 
-## Interações incluídas
+## 🚀 Interações incluídas
 
 - Rolagem suave com Lenis e alternativa nativa.
 - Destaques de entrada ativados conforme a rolagem.
@@ -84,11 +84,11 @@ Portifólio/
 - Ampliação dos certificados em uma janela acessível por teclado.
 - Respeito à preferência do sistema por movimento reduzido.
 
-## Personalização visual
+## 🎨 Personalização visual
 
 A identidade visual foi decidida para se tortar uma característa minha para padronizar as demais redes sociais, como apresentação do GitHub, instagram e outros. Dentro de `:root`. A paleta usa fundo ameixa escuro, lavanda e amarelo pastel, com contraste pensado para leitura e pelo amor às cores.
 
-## Observações
+## 🧐 Observações
 
 - Os três espaços de Lookdev são renders finais.
 - O que é Lookdev? Look Development é o processo que incluí, Modelagens 3D, Texturização, Iluminação, Posicionamento, Renderização e Pós produção completos de uma ou mais cenas.
