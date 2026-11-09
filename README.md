@@ -13,17 +13,37 @@ Site estático responsivo para apresentar desenvolvimento Full Stack, Lookdev 3D
 O efeito de rolagem suave usa a biblioteca Lenis pelo CDN jsDelivr. Se a biblioteca ou a conexão externa não estiver disponível, o site continua navegável com a rolagem nativa do navegador. As fontes são carregadas pelo Google Fonts; fontes de sistema são usadas como alternativa.
 
 ## Autor
-
-- Sofia Oliveira Gonçalves.
-<img classe="integrante" src="assets/images/sofia.webp" alt="">
-- Idade: 22 anos.
-- Região: São Paulo, Brasil.
-- Curso concluído: Animação 3D, pela Faculdade de tecnologia Méliès.
-- Cursando, término (08-2028): Análise e desenvolvimento de sistemas na FIAP (faculdade de informática e administração paulista).
-- Linkedin: https://www.linkedin.com/in/sofia-goncalves-272472431?utm_source=share_via&utm_content=profile&utm_medium=member_android
-- Instagram: https://www.instagram.com/sofia_goliva/?hl=pt-br
-- Spotify: https://open.spotify.com/playlist/0GAoxKPI9WdYt6ZKD1L1VH?si=z8BPd3W5SVSDMD-JVwTX8g
-
+<div>
+  <table>
+  <tr>
+  <td align="center" width="180">
+        <img src="assets/images/sofia.webp" width="80" height="80" alt="Sofia Oliveira Gonçalves"/>
+        <br><br>
+        <strong>Sofia Oliveira Gonçalves</strong>
+        <br>
+        <sub>Idade: 22 anos.</sub>
+        <br>
+        <sub>Região: São Paulo, Brasil.</sub>
+        <br>
+        <sub>Curso concluído: Animação 3D, pela Faculdade de tecnologia Méliès.</sub>
+        <br>
+        <sub>Cursando, término (08-2028): Análise e desenvolvimento de sistemas na FIAP (faculdade de informática e administração paulista).</sub>
+        <br>
+        <sub></sub>
+        <br>
+        <sub></sub>
+        <br><br>
+        <a href="https://www.linkedin.com/in/sofia-goncalves-272472431/">LinkedIn</a>
+        ·
+        <a href="https://github.com/sofiaolivagoliva">GitHub</a>
+        .
+        <a href="https://www.instagram.com/sofia_goliva/?hl=pt-br">Instagram</a>
+        .
+        <a href="https://open.spotify.com/playlist/0GAoxKPI9WdYt6ZKD1L1VH?si=z8BPd3W5SVSDMD-JVwTX8g">Spotify</a>
+    </td>
+  </tr>
+   </table>
+</div>
 
 ## Estrutura
 

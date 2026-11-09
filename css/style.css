@@ -41,10 +41,6 @@ img { max-width: 100%; display: block; }
 button, a { -webkit-tap-highlight-color: transparent; }
 :focus-visible { outline: 2px solid var(--yellow); outline-offset: 5px; }
 
-.integrante{
-  size: 50%;
-}
-
 .skip-link {
   position: fixed; z-index: 300; top: 12px; left: 12px; padding: 10px 16px;
   transform: translateY(-160%); background: var(--yellow); color: var(--bg); font-weight: 800;
