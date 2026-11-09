@@ -143,92 +143,519 @@
       </div>
     </section>
 
-    <!-- 03 — FULL STACK -->
-    <section class="chapter development-section section-pad" id="desenvolvimento" data-section="03" aria-labelledby="devTitle">
-      <div class="page-wrap">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span class="eyebrow-number">03 /</span> CÓDIGO EM MOVIMENTO</p>
-          <span class="section-side-note">FULL STACK JOURNEY</span>
-        </div>
-        <div class="dev-heading">
-          <h2 class="display-title reveal" id="devTitle">Da interface<br>à <em>estrutura.</em></h2>
-          <p class="dev-intro reveal">Uma coleção em evolução de projetos, experiências acadêmicas e explorações técnicas. Selecione uma área para navegar.</p>
+<!-- 03 — FULL STACK -->
+<section class="chapter development-section section-pad"
+  id="desenvolvimento" data-section="03" aria-labelledby="devTitle">
+
+  <div class="page-wrap">
+
+    <div class="section-heading reveal">
+      <p class="eyebrow">
+        <span class="eyebrow-number">03 /</span>
+        CÓDIGO EM MOVIMENTO
+      </p>
+      <span class="section-side-note">FULL STACK JOURNEY</span>
+    </div>
+
+    <div class="dev-heading">
+      <h2 class="display-title reveal" id="devTitle">
+        Explore<br><em>alguns projetos.</em>
+      </h2>
+      <p class="dev-intro reveal">
+        Uma coleção em evolução de projetos, experiências acadêmicas
+        e explorações técnicas. Selecione uma área para navegar.
+      </p>
+    </div>
+
+    <div class="project-filter reveal" role="group"
+      aria-label="Filtrar projetos por área">
+
+      <button class="filter-button is-active" type="button"
+        data-filter="frontend" aria-pressed="true">
+        Front-end <span>03</span>
+      </button>
+
+      <button class="filter-button" type="button"
+        data-filter="database" aria-pressed="false">
+        Banco de dados <span>01</span>
+      </button>
+
+      <button class="filter-button" type="button"
+        data-filter="python" aria-pressed="false">
+        Python <span>01</span>
+      </button>
+
+      <button class="filter-button" type="button"
+        data-filter="java" aria-pressed="false">
+        Java <span>01</span>
+      </button>
+
+      <button class="filter-button" type="button"
+        data-filter="ia" aria-pressed="false">
+        Inteligência artificial <span>01</span>
+      </button>
+
+    </div>
+
+    <div class="project-grid" id="projectGrid" aria-live="polite">
+
+      <!-- FRONT-END 01 -->
+      <article class="project-card project-card-wide reveal"
+        data-category="frontend">
+
+        <div class="project-visual project-visual-web">
+          <div class="browser-top">
+            <i></i><i></i><i></i>
+            <span>interface / web</span>
+          </div>
+
+          <div class="web-mockup">
+            <div class="mockup-nav"></div>
+            <div class="mockup-copy">
+              <b>IDEIAS QUE<br>GANHAM FORMA.</b>
+              <span></span><span></span><i></i>
+            </div>
+            <div class="mockup-block"></div>
+          </div>
+
+          <span class="visual-caption">WEB INTERFACE / 001</span>
         </div>
 
-        <div class="project-filter reveal" role="group" aria-label="Filtrar projetos por área">
-          <button class="filter-button is-active" type="button" data-filter="frontend" aria-pressed="true">Front-end <span>03</span></button>
-          <button class="filter-button" type="button" data-filter="database" aria-pressed="false">Banco de dados <span>01</span></button>
-          <button class="filter-button" type="button" data-filter="python" aria-pressed="false">Python <span>01</span></button>
-          <button class="filter-button" type="button" data-filter="java" aria-pressed="false">Java <span>01</span></button>
-          <button class="filter-button" type="button" data-filter="ia" aria-pressed="false">Inteligência artificial <span>01</span></button>
-        </div>
+        <div class="project-info">
+          <div class="project-meta">
+            <span>FRONT-END</span>
+            <span>01 / REPOSITÓRIO</span>
+          </div>
 
-        <div class="project-grid" id="projectGrid" aria-live="polite">
-          <article class="project-card project-card-wide reveal" data-category="frontend">
-            <div class="project-visual project-visual-web"><div class="browser-top"><i></i><i></i><i></i><span>interface / web</span></div><div class="web-mockup"><div class="mockup-nav"></div><div class="mockup-copy"><b>IDEIAS QUE<br>GANHAM FORMA.</b><span></span><span></span><i></i></div><div class="mockup-block"></div></div><span class="visual-caption">WEB INTERFACE / 001</span></div>
-            <div class="project-info"><div class="project-meta"><span>FRONT-END</span><span>01 / REPOSITÓRIO</span></div><h3>CheckDois Front</h3><p>Projeto "Conecta Campus", um site que divulga a propósta e a estrutura de uma faculdade fictícia. Repositório dedicado ao desenvolvimento front-end.</p><a class="project-link" href="https://github.com/sofiaolivagoliva/CheckDois_Front" target="_blank" rel="noopener noreferrer">Explorar repositório <span>↗</span></a></div>
-          </article>
-          <article class="project-card reveal" data-category="frontend">
-            <div class="project-visual project-visual-code"><span class="code-label">CODE / STUDY</span><pre><span>01</span>  const <b>ideia</b> = () =&gt; {
+          <h3>CheckDois Front</h3>
+
+          <p>
+            Projeto Conecta Campus, um site que apresenta a proposta
+            e a estrutura de uma faculdade fictícia. Desenvolvimento
+            de interface e experiência web.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/CheckDois_Front"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- FRONT-END 02 -->
+      <article class="project-card reveal" data-category="frontend">
+
+        <div class="project-visual project-visual-code">
+          <span class="code-label">CODE / STUDY</span>
+
+          <pre><span>01</span>  const <b>ideia</b> = () => {
 <span>02</span>    return <i>'em construção'</i>;
 <span>03</span>  }
 <span>04</span>
-<span>05</span>  <em>// aprender fazendo</em></pre><div class="code-orbit"></div></div>
-            <div class="project-info"><div class="project-meta"><span>ESTUDOS</span><span>02 / REPOSITÓRIO</span></div><h3>Alura 1</h3><p>Repositório de prática e estudos em desenvolvimento web do curso da Alura. Um registro do processo de aprendizagem. Projeto em desenvolvimento.</p><a class="project-link" href="https://github.com/sofiaolivagoliva/Alura1" target="_blank" rel="noopener noreferrer">Explorar repositório <span>↗</span></a></div>
-          </article>
-          <article class="project-card reveal" data-category="frontend">
-            <div class="project-visual project-visual-terminal"><div class="terminal-head"><span>●</span><span>●</span><span>●</span><b>nano_courses</b></div><div class="terminal-content"><p><i>~/projetos</i> <b>$</b> estudar_web</p><p class="terminal-output">HTML<br>CSS<br>JavaScript<br><span>BUILDING KNOWLEDGE...</span></p></div><span class="terminal-mark">&lt;/&gt;</span></div>
-            <div class="project-info"><div class="project-meta"><span>PROGRAMAÇÃO</span><span>03 / REPOSITÓRIO</span></div><h3>Nano Courses</h3><p>Práticas e exercícios desenvolvidos ao longo do Nano Courses de programação web. Projeto em desenvolvimento.</p><a class="project-link" href="https://github.com/sofiaolivagoliva/NanoCourses_programacao" target="_blank" rel="noopener noreferrer">Explorar repositório <span>↗</span></a></div>
-          </article>
-          <article class="project-card placeholder-card reveal" data-category="database">
-            <div class="placeholder-art art-database"><span class="placeholder-symbol">◉</span><span class="placeholder-label">DATA / STRUCTURE</span></div>
-            <div class="project-info"><div class="project-meta"><span>BANCO DE DADOS</span><span>EM DESENVOLVIMENTO</span></div><h3>Modelagem & SQL</h3><p>Espaço reservado para projetos com Oracle Data Modeler, SQL Developer e SQLite.</p><span class="project-soon">NOVOS ESTUDOS EM BREVE</span></div>
-          </article>
-          <article class="project-card placeholder-card reveal" data-category="python">
-            <div class="placeholder-art art-python"><span class="placeholder-symbol">Py</span><span class="placeholder-label">LOGIC / AUTOMATION</span></div>
-            <div class="project-info"><div class="project-meta"><span>PYTHON</span><span>EM DESENVOLVIMENTO</span></div><h3>Scripts & soluções</h3><p>Espaço reservado para aplicações, exercícios e projetos desenvolvidos com Python.</p><span class="project-soon">NOVOS ESTUDOS EM BREVE</span></div>
-          </article>
-          <article class="project-card placeholder-card reveal" data-category="java">
-            <div class="placeholder-art art-java"><span class="placeholder-symbol">J.</span><span class="placeholder-label">OBJECT / ORIENTED</span></div>
-            <div class="project-info"><div class="project-meta"><span>JAVA</span><span>EM DESENVOLVIMENTO</span></div><h3>Programação orientada a objetos</h3><p>Espaço reservado para projetos e exercícios desenvolvidos com Java e IntelliJ IDEA.</p><span class="project-soon">NOVOS ESTUDOS EM BREVE</span></div>
-          </article>
-          <article class="project-card project-card-ai reveal" data-category="ia">
-            <div class="project-visual project-visual-chat"><img src="assets/images/haka-chatbot.jpg" alt="Captura de tela de uma conversa com o chatbot Haka em uma interface de mensagens" loading="lazy"><span class="chat-overlay-label">CHATBOT / NODE-RED</span></div>
-            <div class="project-info"><div class="project-meta"><span>INTELIGÊNCIA ARTIFICIAL</span><span>PROTÓTIPO</span></div><h3>Haka · Assistente virtual</h3><p>Protótipo de chatbot para atendimento, com respostas em texto e amostras de áudio. Desenvolvido como experimento com Node-RED.</p><span class="project-soon">REGISTRO VISUAL DO PROJETO</span></div>
-          </article>
-        </div>
-        <p class="project-footnote reveal"><span>NOTA</span> As categorias sem projetos publicados já estão estruturadas para receber novas entregas conforme o portfólio evoluir.</p>
-      </div>
-    </section>
+<span>05</span>  <em>// aprender fazendo</em></pre>
 
-    <!-- 04 — LOOKDEV -->
-    <section class="chapter lookdev-section section-pad" id="lookdev" data-section="04" aria-labelledby="lookdevTitle">
-      <div class="page-wrap">
-        <div class="section-heading reveal">
-          <p class="eyebrow"><span class="eyebrow-number">04 /</span> MATÉRIA, LUZ & FORMA</p>
-          <span class="section-side-note">3D ART · LOOK DEVELOPMENT</span>
+          <div class="code-orbit"></div>
         </div>
-        <div class="lookdev-heading">
-          <h2 class="display-title reveal" id="lookdevTitle">O lado tátil<br>do <em>digital.</em></h2>
-          <p class="lookdev-intro reveal">Três estudos de Lookdev com espaço para apresentar o resultado final, a pesquisa de materiais e as decisões de iluminação de cada projeto.</p>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>ESTUDOS</span>
+            <span>02 / REPOSITÓRIO</span>
+          </div>
+
+          <h3>Alura 1</h3>
+
+          <p>
+            Repositório de práticas e estudos em desenvolvimento
+            web realizados durante o curso da Alura.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Alura1"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
         </div>
-        <div class="lookdev-track" id="lookdevTrack" tabindex="0" data-lenis-prevent aria-label="Galeria horizontal com três projetos de Lookdev; navegue lateralmente para explorar">
-          <article class="look-card reveal">
-            <div class="look-art look-art-one"><div class="look-orb look-orb-one"></div><div class="look-orb look-orb-two"></div><span class="look-render-label">RENDER 01</span><span class="look-render-hint">SUBSTITUIR PELA IMAGEM DO PROJETO</span></div>
-            <div class="look-card-info"><div><span class="project-meta">LOOKDEV STUDY / 01</span><h3>Projeto de Lookdev 01</h3><p>Materiais · iluminação · composição</p></div><span class="look-card-arrow">↗</span></div>
-          </article>
-          <article class="look-card reveal">
-            <div class="look-art look-art-two"><div class="look-ribbon"></div><div class="look-glass"></div><span class="look-render-label">RENDER 02</span><span class="look-render-hint">SUBSTITUIR PELA IMAGEM DO PROJETO</span></div>
-            <div class="look-card-info"><div><span class="project-meta">LOOKDEV STUDY / 02</span><h3>Projeto de Lookdev 02</h3><p>Superfícies · shader · luz</p></div><span class="look-card-arrow">↗</span></div>
-          </article>
-          <article class="look-card reveal">
-            <div class="look-art look-art-three"><div class="look-metal"></div><div class="look-metal-shadow"></div><span class="look-render-label">RENDER 03</span><span class="look-render-hint">SUBSTITUIR PELA IMAGEM DO PROJETO</span></div>
-            <div class="look-card-info"><div><span class="project-meta">LOOKDEV STUDY / 03</span><h3>Projeto de Lookdev 03</h3><p>Textura · material · render</p></div><span class="look-card-arrow">↗</span></div>
-          </article>
+      </article>
+
+      <!-- FRONT-END 03 -->
+      <article class="project-card reveal" data-category="frontend">
+
+        <div class="project-visual project-visual-terminal">
+          <div class="terminal-head">
+            <span>●</span><span>●</span><span>●</span>
+            <b>nano_courses</b>
+          </div>
+
+          <div class="terminal-content">
+            <p><i>~/projetos</i> <b>$</b> estudar_web</p>
+
+            <p class="terminal-output">
+              HTML<br>CSS<br>JavaScript<br>
+              <span>BUILDING KNOWLEDGE...</span>
+            </p>
+          </div>
+
+          <span class="terminal-mark">&lt;/&gt;</span>
         </div>
-        <div class="lookdev-bottom"><span>01 — 03 / ESTUDOS DE LOOKDEV</span><span>ARRASTE PARA O LADO <b>→</b></span></div>
-      </div>
-    </section>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>PROGRAMAÇÃO</span>
+            <span>03 / REPOSITÓRIO</span>
+          </div>
+
+          <h3>Nano Courses</h3>
+
+          <p>
+            Práticas e exercícios desenvolvidos ao longo do Nano
+            Course de programação web.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/NanoCourses_programacao"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- BANCO DE DADOS -->
+      <article class="project-card placeholder-card reveal"
+        data-category="database">
+
+        <div class="placeholder-art art-database">
+          <span class="placeholder-symbol">◉</span>
+          <span class="placeholder-label">DATA / STRUCTURE</span>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>BANCO DE DADOS</span>
+            <span>ORACLE / SQL</span>
+          </div>
+
+          <h3>Modelagem & SQL</h3>
+
+          <p>
+            Estudos e projetos de banco de dados, modelagem
+            relacional e consultas SQL utilizando ferramentas
+            Oracle e SQLite.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Oracle"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- PYTHON -->
+      <article class="project-card placeholder-card reveal"
+        data-category="python">
+
+        <div class="placeholder-art art-python">
+          <span class="placeholder-symbol">Py</span>
+          <span class="placeholder-label">LOGIC / AUTOMATION</span>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>PYTHON</span>
+            <span>PROGRAMMING</span>
+          </div>
+
+          <h3>Scripts & soluções</h3>
+
+          <p>
+            Aplicações, exercícios e projetos desenvolvidos
+            com Python, explorando lógica de programação,
+            funções e resolução de problemas.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Python"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- JAVA -->
+      <article class="project-card placeholder-card reveal"
+        data-category="java">
+
+        <div class="placeholder-art art-java">
+          <span class="placeholder-symbol">J.</span>
+          <span class="placeholder-label">OBJECT / ORIENTED</span>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>JAVA</span>
+            <span>PROGRAMMING</span>
+          </div>
+
+          <h3>Programação orientada a objetos</h3>
+
+          <p>
+            Projetos e exercícios desenvolvidos em Java,
+            explorando lógica, orientação a objetos
+            e construção de aplicações.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Java"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- INTELIGÊNCIA ARTIFICIAL -->
+      <article class="project-card project-card-ai reveal"
+        data-category="ia">
+
+        <div class="project-visual project-visual-chat">
+
+          <img src="assets/images/haka-chatbot.jpg"
+            alt="Captura de tela de uma conversa com o chatbot Haka em uma interface de mensagens"
+            loading="lazy">
+
+          <span class="chat-overlay-label">CHATBOT / NODE-RED</span>
+        </div>
+
+        <div class="project-info">
+          <div class="project-meta">
+            <span>INTELIGÊNCIA ARTIFICIAL</span>
+            <span>PROTÓTIPO</span>
+          </div>
+
+          <h3>Haka · Assistente virtual</h3>
+
+          <p>
+            Protótipo de chatbot para atendimento, com respostas
+            e leitura de texto e áudio (STT e TTS). Desenvolvido
+            como experimento com Node-RED.
+          </p>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/ChatBot"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <p class="project-footnote reveal">
+      <span>NOTA</span>
+      Novos projetos e experimentações serão adicionados
+      continuamente.
+    </p>
+
+  </div>
+</section>
+
+<!-- 04 — LOOKDEV -->
+<section class="chapter lookdev-section section-pad"
+  id="lookdev" data-section="04" aria-labelledby="lookdevTitle">
+
+  <div class="page-wrap">
+
+    <div class="section-heading reveal">
+      <p class="eyebrow">
+        <span class="eyebrow-number">04 /</span>
+        MATÉRIA, LUZ & FORMA
+      </p>
+
+      <span class="section-side-note">
+        3D ART · LOOK DEVELOPMENT
+      </span>
+    </div>
+
+    <div class="lookdev-heading">
+      <h2 class="display-title reveal" id="lookdevTitle">
+        Projetos de<br><em>Lookdev</em>
+      </h2>
+
+      <p class="lookdev-intro reveal">
+        Três projetos que exploram Lookdev completos,
+        de diferentes universos.
+      </p>
+    </div>
+
+    <div class="lookdev-track" id="lookdevTrack"
+      tabindex="0" data-lenis-prevent
+      aria-label="Galeria horizontal com três projetos de Lookdev">
+
+      <!-- LOOKDEV 01 — BUSTO FEMININO -->
+      <article class="look-card reveal">
+
+        <div class="look-art look-art-one"
+          style="display:grid; grid-template-columns:1fr 1fr;
+          grid-template-rows:1fr 1.2fr; gap:4px; overflow:hidden;">
+
+          <img src="assets/images/Projeto_Angelina_Jolie-3.png"
+            alt="Estudo de busto feminino com iluminação e materiais realistas"
+            loading="lazy"
+            style="width:100%; height:100%; object-fit:cover;">
+
+          <img src="assets/images/Projeto_Angelina_Jolie-2.png"
+            alt="Estudo de busto feminino em material cinza, mostrando a modelagem"
+            loading="lazy"
+            style="width:100%; height:100%; object-fit:cover;">
+
+          <img src="assets/images/Projeto_ Angelina_Jolie.png"
+            alt="Resultado final do busto feminino realista com cabelo e materiais aplicados"
+            loading="lazy"
+            style="grid-column:1 / -1; width:100%; height:100%;
+            object-fit:cover; object-position:center 35%;">
+
+          <span class="look-render-label">RENDER 01</span>
+        </div>
+
+        <div class="look-card-info">
+
+          <div>
+            <span class="project-meta">LOOKDEV STUDY / 01</span>
+
+            <h3>Projeto Angelina Jolie</h3>
+
+            <p>
+              realismo · possuída · lookdev geral · modelagem feita pelo professor @Adam Stamm, da faculdade Méliès.
+            </p>
+          </div>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Lookdevs.git"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- LOOKDEV 02 — CRIATURA NAJA -->
+      <article class="look-card reveal">
+
+        <div class="look-art look-art-two"
+          style="display:grid; grid-template-columns:repeat(3,1fr);
+          grid-template-rows:1fr 1.2fr; gap:4px; overflow:hidden;">
+
+          <img src="assets/images/Projeto_Naja-4.png"
+            alt="Primeiro estudo da criatura Naja, texturizada"
+            loading="lazy"
+            style="width:100%; height:100%; object-fit:cover;">
+
+          <img src="assets/images/Projeto_Naja-2.png"
+            alt="Estudo de modelagem da criatura Naja de costas, texturizada"
+            loading="lazy"
+            style="width:100%; height:100%; object-fit:cover;">
+
+          <img src="assets/images/Projeto_Naja-3.png"
+            alt="Estudo de texturização da criatura Naja de frente, sem textura"
+            loading="lazy"
+            style="width:100%; height:100%; object-fit:cover;">
+
+            <!--Imagem maior, principal-->
+          <img src="assets/images/Projeto_Naja.png"
+            alt="Resultado final do busto da criatura Naja de perfil, sem textura"
+            loading="lazy"
+            style="grid-column:1 / -1; width:100%; height:100%;
+            object-fit:cover; object-position:center 35%;">
+            
+          <img src="assets/images/Projeto_Naja-5.png"
+            alt="Resultado final do busto da criatura Naja de costas, sem textura"
+            loading="lazy"
+            style="grid-column:1 / -1; width:100%; height:100%;
+            object-fit:cover; object-position:center 35%;">
+
+          <span class="look-render-label">RENDER 02</span>
+        </div>
+
+        <div class="look-card-info">
+
+          <div>
+            <span class="project-meta">LOOKDEV STUDY / 02</span>
+
+            <h3>Projeto Naja</h3>
+
+            <p>
+              criatura híbrida · Naja e Cillian Murphy · modelagem · shaders · texturização · iluminação · pós produção · renderização
+            </p>
+          </div>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Lookdevs.git"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+      <!-- LOOKDEV 03 — COFFEE BREAK -->
+      <article class="look-card reveal">
+
+        <div class="look-art look-art-three"
+          style="position:relative; overflow:hidden;">
+
+          <iframe
+            src="https://www.youtube-nocookie.com/embed/sG0F2WcwnSw"
+            title="Coffee Break — curta-metragem, Projeto de Lookdev 03"
+            loading="lazy"
+            allow="accelerometer; autoplay; clipboard-write;
+            encrypted-media; gyroscope; picture-in-picture; web-share"
+            referrerpolicy="strict-origin-when-cross-origin"
+            allowfullscreen
+            style="width:100%; height:100%; border:0;
+            position:absolute; inset:0;">
+          </iframe>
+
+          <span class="look-render-label"
+            style="pointer-events:none;">
+            SHORT FILM / 03
+          </span>
+
+        </div>
+
+        <div class="look-card-info">
+
+          <div>
+            <span class="project-meta">LOOKDEV STUDY / 03</span>
+
+            <h3>Coffee Break</h3>
+
+            <p>
+              curta-metragem · texturização · produção completa em 3D da cidade e parte do escritório · simulação de materiais
+            </p>
+
+            <a class="project-link"
+              href="https://youtu.be/sG0F2WcwnSw?si=JVZT8ohcWbSAnj1l"
+              target="_blank" rel="noopener noreferrer">
+              Assistir no YouTube <span>↗</span>
+            </a>
+          </div>
+
+          <a class="project-link"
+            href="https://github.com/sofiaolivagoliva/Lookdevs.git"
+            target="_blank" rel="noopener noreferrer">
+            Explorar repositório <span>↗</span>
+          </a>
+        </div>
+      </article>
+
+    </div>
+
+    <div class="lookdev-bottom">
+      <span>01 — 03 / ESTUDOS DE LOOKDEV</span>
+      <span>ARRASTE PARA O LADO <b>→</b></span>
+    </div>
+
+  </div>
+</section>
 
     <!-- 05 — CERTIFICATES -->
     <section class="chapter certificates-section section-pad" id="formacao" data-section="05" aria-labelledby="certTitle">
@@ -238,8 +665,8 @@
           <span class="section-side-note">FORMAÇÃO & CERTIFICADOS</span>
         </div>
         <div class="cert-heading">
-          <h2 class="display-title reveal" id="certTitle">Conhecimento<br>em <em>construção.</em></h2>
-          <p class="cert-intro reveal">Formações que ampliam meu repertório técnico e visual. Selecione um certificado para visualizar em tamanho maior.</p>
+          <h2 class="display-title reveal" id="certTitle">Certificados<br><em>conquistados.</em></h2>
+          <p class="cert-intro reveal">Formações que ampliam meu repertório. Selecione um certificado para visualizar em tamanho maior.</p>
         </div>
         <div class="certificate-grid">
           <article class="certificate-card certificate-featured reveal">
@@ -288,8 +715,8 @@
         <div class="connection-list reveal">
           <a href="https://github.com/sofiaolivagoliva" target="_blank" rel="noopener noreferrer"><span>01</span><b>GitHub</b><span class="connection-detail">CÓDIGO & PROJETOS</span><i>↗</i></a>
           <a href="https://www.linkedin.com/in/sofia-goncalves-272472431?utm_source=share_via&amp;utm_content=profile&amp;utm_medium=member_android" target="_blank" rel="noopener noreferrer"><span>02</span><b>LinkedIn</b><span class="connection-detail">TRAJETÓRIA & CONEXÕES</span><i>↗</i></a>
-          <a href="https://www.instagram.com/sofia_goliva/?hl=pt-br" target="_blank" rel="noopener noreferrer"><span>03</span><b>Instagram</b><span class="connection-detail">PROCESSO & VISUAL</span><i>↗</i></a>
-          <a href="https://open.spotify.com/playlist/0GAoxKPI9WdYt6ZKD1L1VH?si=z8BPd3W5SVSDMD-JVwTX8g" target="_blank" rel="noopener noreferrer"><span>04</span><b>Spotify</b><span class="connection-detail">TRILHA SONORA</span><i>↗</i></a>
+          <a href="https://www.instagram.com/sofia_goliva/?hl=pt-br" target="_blank" rel="noopener noreferrer"><span>03</span><b>Instagram</b><span class="connection-detail">SOBRE MIM & VISUAL</span><i>↗</i></a>
+          <a href="https://open.spotify.com/playlist/0GAoxKPI9WdYt6ZKD1L1VH?si=z8BPd3W5SVSDMD-JVwTX8g" target="_blank" rel="noopener noreferrer"><span>04</span><b>Spotify</b><span class="connection-detail">TRILHA SONORA ESTRATÉGICA</span><i>↗</i></a>
         </div>
         <footer class="site-footer"><a class="footer-mark" href="#inicio">SOG<span>®</span></a><span>FEITO COM CURIOSIDADE, CÓDIGO & CAFÉ.</span><a href="#topo">VOLTAR AO TOPO ↑</a><span>© <span id="currentYear">2026</span> SOFIA OLIVEIRA GONÇALVES</span></footer>
       </div>

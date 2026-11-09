@@ -58,11 +58,23 @@ Portifólio/
 └── assets/
     ├── images/
     │   ├── sofia.webp
-    │   └── haka-chatbot.jpg
+    │   ├── haka-chatbot.jpg
+        ├── haka-chatbot.jpg
+│       │
+│       ├── Projeto Angelina Jolie.png
+│       ├── Projeto Angelina Jolie(2).png
+│       ├── Projeto Angelina Jolie(3).png
+│       │
+│       ├── Projeto Naja.png
+│       ├── Projeto Naja (2).png
+│       ├── Projeto Naja (3).png
+│       └── Projeto Naja (4).png
     └── certificates/
         ├── diploma-design-animacao-redigido.jpg
         ├── nano-programacao-web.png
         └── nano-formacao-social-sustentabilidade.png
+    └──  lookdev
+        └── .gitkeep
 ```
 
 ## 🛠️ Tecnologias
